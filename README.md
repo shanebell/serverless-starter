@@ -8,8 +8,6 @@ This project is a starter template for writing web applications on [AWS](https:/
 
 ## Running locally
 
-Create credentials for an IAM user in AWS and configure the AWS cli to use those credentials - https://docs.aws.amazon.com/cli/latest/reference/configure/
-
 Ensure you have Node.js `lts/fermium` (v14) installed.
 
 From the root of this project:
@@ -29,6 +27,8 @@ Both the `start:client` and `start:server` scripts watch for changes and automat
 
 - Install Serverless - https://www.serverless.com/framework/docs/getting-started
 - Install AWS cli - https://formulae.brew.sh/formula/awscli
+
+Create credentials for an IAM user in AWS and configure the AWS cli to use those credentials - https://docs.aws.amazon.com/cli/latest/reference/configure/
 
 Deploy the application to AWS:
 
